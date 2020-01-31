@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import NotesItem from './NotesItem';
 import { Link } from 'react-router-dom';
+
 class NotesList extends Component {
 	render() {
 		const {notes, handleDelete, handleEdit} = this.props
