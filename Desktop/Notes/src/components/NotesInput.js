@@ -14,7 +14,7 @@ class NotesInput extends Component {
 					/>
 					<button 
 						className="input__btn" 
-						type="submit"											
+						type="submit"																	
 					>{editNote ? 'edit note' : 'save note'}</button>
 				</form>								                
 			</div>
